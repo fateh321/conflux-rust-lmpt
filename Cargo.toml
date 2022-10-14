@@ -5,6 +5,7 @@ edition = "2018"
 build = "build.rs"
 
 [dependencies]
+openssl = { version = "*", features = ["vendored"] }
 mio = "0.6.8"
 clap = { version = "2", features = ["yaml"] }
 textwrap = "0.9"
