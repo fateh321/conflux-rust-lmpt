@@ -47,7 +47,6 @@ pub use cfxstore::{Derivation, Error, IndexDerivation, KeyFile};
 pub use self::{account_data::AccountMeta, error::SignError};
 
 type AccountToken = Password;
-
 /// Account management settings.
 #[derive(Debug, Default)]
 pub struct AccountProviderSettings {

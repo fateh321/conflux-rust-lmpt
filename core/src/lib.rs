@@ -4,7 +4,6 @@
 
 // Recursion limit raised for error_chain
 #![recursion_limit = "256"]
-
 extern crate cfx_bytes as bytes;
 #[macro_use]
 extern crate cfx_internal_common;
